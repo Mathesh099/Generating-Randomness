@@ -43,6 +43,6 @@ while test != "enough":
         total = correct + wrong
         capital -= (correct - wrong)
         print(f'\nComputer guessed right {correct} out of {total} symbols ({round(100 * correct / total, 2)} %)')
-        print(f"Your capital is now ${capital}")
+        print(f"Your balance is now ${capital}")
     test = input(f"\nPrint a random string containing 0 or 1:\n").strip()
 print("Game over!")
